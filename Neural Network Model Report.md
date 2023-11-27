@@ -16,13 +16,13 @@ The purpose of this analysis was to create binary classifiers that can predict w
 
 For my first model there were 2 hidden layers. I used the following activation functions: <br>
 
-![nodes1](Images/nodes1.png) <br>
+![nodes1](Images/nodes1.PNG) <br>
 
-![model1](Images/model1.png) <br>
+![model1](Images/model1.PNG) <br>
 
 I noticed that the total trainable params was 619 so I thought to increase the number of params in my final model. This would hopefully increase the accuracy of the model. <br>
 
-![results1](Images/results1.png) <br>
+![results1](Images/results1.PNG) <br>
 
 I was able to achieve an accuracy of 73% for my first model which was close to the ultimate goal of 75% accuracy. <br>
 
@@ -31,18 +31,18 @@ I was able to achieve an accuracy of 73% for my first model which was close to t
 
 For the next model, I decided to keep the "NAME" column. I filtered out "NAME" where the value counts were less than 50. Creating more bins here could increase the number of rare occurances in the "NAME" column. 
 
-![names2](Images/names2.png) <br>
+![names2](Images/names2.PNG) <br>
 
 This model's performance was more accurate. Increasing the number of columns that were analyzed, increaseing the hidden layers, and epochs helped raise the model's accuracy. 
 
-![nodes2](Images/nodes2.png) <br>
+![nodes2](Images/nodes2.PNG) <br>
 
 The total number of trainable params was increased to 1535 and I increased the number of epochs to 150. 
 The following activation functions were used:
 
-![model2](Images/model2.png) <br>
+![model2](Images/model2.PNG) <br>
 
-![results2](Images/results2.png) <br>
+![results2](Images/results2.PNG) <br>
 
 The optimized model achieved an accuracy of 76%.
 
