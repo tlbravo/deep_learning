@@ -1,7 +1,7 @@
 # Neural Network Model Report
 
 ## Overview
-The purpose of this analysis was to create a binary classifier model that can predict whether applicants' ventures will be successful if funded by the nonprofit organization Alphabet Soup. Alphabet Soup’s business team, provided a CSV containing more than 34,000 organizations that have received funding over the years. Using knowledge on neural networks, a model with at least 75% accuracy was created using scikit-learn, Pandas, and TensorFlow.
+The purpose of this analysis was to create a binary classifier model that can predict whether applicants' ventures will be successful or not if funded by the nonprofit organization Alphabet Soup. Alphabet Soup’s business team provided a CSV containing more than 34,000 organizations that have received funding over the years. Using knowledge on neural networks, scikit-learn, Pandas, and TensorFlow a predictive model with at least 75% accuracy was created.
 
 ## Results
 
